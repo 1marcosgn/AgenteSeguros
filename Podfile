@@ -1,0 +1,1 @@
+pod 'SlideMenu3D'
