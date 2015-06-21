@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <HKSlideMenu3DController.h>
+#import "RotationNavigationController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -17,9 +19,14 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property(strong, nonatomic) HKSlideMenu3DController *slideMenuVC;
+
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
++ (AppDelegate *)mainDelegate;
+-(void)setFirstView;
+-(void)setSecondView;
 
 @end
 

@@ -15,6 +15,16 @@
 		7FA017351B328C9600FAFA2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017341B328C9600FAFA2F /* Images.xcassets */; };
 		7FA017381B328C9600FAFA2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017361B328C9600FAFA2F /* LaunchScreen.xib */; };
 		7FA017441B328C9700FAFA2F /* AgenteSegurosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA017431B328C9700FAFA2F /* AgenteSegurosTests.m */; };
+		7FA0175A1B352E5C00FAFA2F /* RotationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA017591B352E5C00FAFA2F /* RotationNavigationController.m */; };
+		7FA0175D1B3531F200FAFA2F /* HKMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0175C1B3531F200FAFA2F /* HKMenuView.m */; };
+		7FA017601B3535AC00FAFA2F /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0175F1B3535AC00FAFA2F /* cloud@2x.png */; };
+		7FA017671B35394E00FAFA2F /* call-ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017611B35394E00FAFA2F /* call-ico@2x.png */; };
+		7FA017681B35394E00FAFA2F /* camera-ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017621B35394E00FAFA2F /* camera-ico@2x.png */; };
+		7FA017691B35394E00FAFA2F /* contacts-ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017631B35394E00FAFA2F /* contacts-ico@2x.png */; };
+		7FA0176A1B35394E00FAFA2F /* mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017641B35394E00FAFA2F /* mail@2x.png */; };
+		7FA0176B1B35394E00FAFA2F /* settings-ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017651B35394E00FAFA2F /* settings-ico@2x.png */; };
+		7FA0176C1B35394E00FAFA2F /* weather-ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA017661B35394E00FAFA2F /* weather-ico@2x.png */; };
+		E144547382B7BC5059061B29 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADABA7D6A69D5E290D803C7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5ADABA7D6A69D5E290D803C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C16AFD144B35ADC82117E9B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7FA017211B328C9600FAFA2F /* AgenteSeguros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgenteSeguros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA017251B328C9600FAFA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA017261B328C9600FAFA2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +54,18 @@
 		7FA0173D1B328C9700FAFA2F /* AgenteSegurosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgenteSegurosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA017421B328C9700FAFA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA017431B328C9700FAFA2F /* AgenteSegurosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgenteSegurosTests.m; sourceTree = "<group>"; };
+		7FA017581B352E5C00FAFA2F /* RotationNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationNavigationController.h; sourceTree = "<group>"; };
+		7FA017591B352E5C00FAFA2F /* RotationNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationNavigationController.m; sourceTree = "<group>"; };
+		7FA0175B1B3531F200FAFA2F /* HKMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKMenuView.h; sourceTree = "<group>"; };
+		7FA0175C1B3531F200FAFA2F /* HKMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKMenuView.m; sourceTree = "<group>"; };
+		7FA0175F1B3535AC00FAFA2F /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud@2x.png"; sourceTree = "<group>"; };
+		7FA017611B35394E00FAFA2F /* call-ico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call-ico@2x.png"; sourceTree = "<group>"; };
+		7FA017621B35394E00FAFA2F /* camera-ico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-ico@2x.png"; sourceTree = "<group>"; };
+		7FA017631B35394E00FAFA2F /* contacts-ico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts-ico@2x.png"; sourceTree = "<group>"; };
+		7FA017641B35394E00FAFA2F /* mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail@2x.png"; sourceTree = "<group>"; };
+		7FA017651B35394E00FAFA2F /* settings-ico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-ico@2x.png"; sourceTree = "<group>"; };
+		7FA017661B35394E00FAFA2F /* weather-ico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather-ico@2x.png"; sourceTree = "<group>"; };
+		D717C9D5AB90A31FB0F33397 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E144547382B7BC5059061B29 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FCAD150259D0C6A6D5B866B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C16AFD144B35ADC82117E9B /* Pods.debug.xcconfig */,
+				D717C9D5AB90A31FB0F33397 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7FA017181B328C9600FAFA2F = {
 			isa = PBXGroup;
 			children = (
 				7FA017231B328C9600FAFA2F /* AgenteSeguros */,
 				7FA017401B328C9700FAFA2F /* AgenteSegurosTests */,
 				7FA017221B328C9600FAFA2F /* Products */,
+				1FCAD150259D0C6A6D5B866B /* Pods */,
+				FEBC9DC1790DCEB9DDA188BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +119,8 @@
 		7FA017231B328C9600FAFA2F /* AgenteSeguros */ = {
 			isa = PBXGroup;
 			children = (
+				7FA0175E1B35359F00FAFA2F /* Resources */,
+				7FA017571B352DEB00FAFA2F /* Navigation */,
 				7FA017281B328C9600FAFA2F /* AppDelegate.h */,
 				7FA017291B328C9600FAFA2F /* AppDelegate.m */,
 				7FA0172E1B328C9600FAFA2F /* ViewController.h */,
@@ -122,6 +160,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7FA017571B352DEB00FAFA2F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0175B1B3531F200FAFA2F /* HKMenuView.h */,
+				7FA0175C1B3531F200FAFA2F /* HKMenuView.m */,
+				7FA017581B352E5C00FAFA2F /* RotationNavigationController.h */,
+				7FA017591B352E5C00FAFA2F /* RotationNavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		7FA0175E1B35359F00FAFA2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FA017611B35394E00FAFA2F /* call-ico@2x.png */,
+				7FA017621B35394E00FAFA2F /* camera-ico@2x.png */,
+				7FA017631B35394E00FAFA2F /* contacts-ico@2x.png */,
+				7FA017641B35394E00FAFA2F /* mail@2x.png */,
+				7FA017651B35394E00FAFA2F /* settings-ico@2x.png */,
+				7FA017661B35394E00FAFA2F /* weather-ico@2x.png */,
+				7FA0175F1B3535AC00FAFA2F /* cloud@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FEBC9DC1790DCEB9DDA188BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ADABA7D6A69D5E290D803C7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FA017471B328C9700FAFA2F /* Build configuration list for PBXNativeTarget "AgenteSeguros" */;
 			buildPhases = (
+				33E98FE0B57C753E09DA3412 /* Check Pods Manifest.lock */,
 				7FA0171D1B328C9600FAFA2F /* Sources */,
 				7FA0171E1B328C9600FAFA2F /* Frameworks */,
 				7FA0171F1B328C9600FAFA2F /* Resources */,
+				7781814B010D3CAD6C1B6FD7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,7 +274,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA017601B3535AC00FAFA2F /* cloud@2x.png in Resources */,
 				7FA017331B328C9600FAFA2F /* Main.storyboard in Resources */,
+				7FA017671B35394E00FAFA2F /* call-ico@2x.png in Resources */,
+				7FA0176A1B35394E00FAFA2F /* mail@2x.png in Resources */,
+				7FA017681B35394E00FAFA2F /* camera-ico@2x.png in Resources */,
+				7FA0176B1B35394E00FAFA2F /* settings-ico@2x.png in Resources */,
+				7FA017691B35394E00FAFA2F /* contacts-ico@2x.png in Resources */,
+				7FA0176C1B35394E00FAFA2F /* weather-ico@2x.png in Resources */,
 				7FA017381B328C9600FAFA2F /* LaunchScreen.xib in Resources */,
 				7FA017351B328C9600FAFA2F /* Images.xcassets in Resources */,
 			);
@@ -216,6 +296,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33E98FE0B57C753E09DA3412 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7781814B010D3CAD6C1B6FD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FA0171D1B328C9600FAFA2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -223,6 +336,8 @@
 			files = (
 				7FA0172A1B328C9600FAFA2F /* AppDelegate.m in Sources */,
 				7FA0172D1B328C9600FAFA2F /* AgenteSeguros.xcdatamodeld in Sources */,
+				7FA0175D1B3531F200FAFA2F /* HKMenuView.m in Sources */,
+				7FA0175A1B352E5C00FAFA2F /* RotationNavigationController.m in Sources */,
 				7FA017301B328C9600FAFA2F /* ViewController.m in Sources */,
 				7FA017271B328C9600FAFA2F /* main.m in Sources */,
 			);
@@ -348,21 +463,27 @@
 		};
 		7FA017481B328C9700FAFA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C16AFD144B35ADC82117E9B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AgenteSeguros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7FA017491B328C9700FAFA2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D717C9D5AB90A31FB0F33397 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AgenteSeguros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -419,6 +540,7 @@
 				7FA017491B328C9700FAFA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FA0174A1B328C9700FAFA2F /* Build configuration list for PBXNativeTarget "AgenteSegurosTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +549,7 @@
 				7FA0174C1B328C9700FAFA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
